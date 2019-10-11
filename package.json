@@ -1,11 +1,12 @@
 {
 	"name": "git-add-commit-push",
 	"publisher": "alfredbirk",
+	"icon": "./logo.png",
 	"displayName": "Git add commit push",
 	"description": "Three git commands in one easy shortcut!",
 	"version": "0.2.0",
 	"engines": {
-		"vscode": "^1.39.0"
+		"vscode": "^1.16.0"
 	},
 	"categories": [
 		"Other"
@@ -18,6 +19,10 @@
 		"auto",
 		"macro"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alfredbirk/vscode-extension-git-add-commit-push"
+	},
 	"activationEvents": [
 		"onCommand:extension.gitAddCommitPush",
 		"onCommand:extension.gitAddCommitPushPr"
@@ -33,18 +38,18 @@
 				"command": "extension.gitAddCommitPushPr",
 				"title": "Git add > commit > push > create PR"
 			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.gitAddCommitPush",
+				"key": "cmd+ctrl+p"
+			},
+			{
+				"command": "extension.gitAddCommitPushPr",
+				"key": "cmd+ctrl+l"
+			}
 		]
 	},
-	"keybindings": [
-		{
-			"command": "extension.gitAddCommitPush",
-			"key": "cmd+ctrl+p"
-		},
-		{
-			"command": "extension.gitAddCommitPushPr",
-			"key": "cmd+ctrl+l"
-		}
-	],
 	"scripts": {
 		"test": "node ./test/runTest.js"
 	},

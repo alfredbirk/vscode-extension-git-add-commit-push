@@ -10,6 +10,14 @@
 	"categories": [
 		"Other"
 	],
+	"keywords": [
+		"git",
+		"add",
+		"commit",
+		"push",
+		"auto",
+		"macro"
+	],
 	"activationEvents": [
 		"onCommand:extension.gitAddCommitPush",
 		"onCommand:extension.gitAddCommitPushPr"
@@ -27,6 +35,16 @@
 			}
 		]
 	},
+	"keybindings": [
+		{
+			"command": "extension.gitAddCommitPush",
+			"key": "cmd+ctrl+p"
+		},
+		{
+			"command": "extension.gitAddCommitPushPr",
+			"key": "cmd+ctrl+l"
+		}
+	],
 	"scripts": {
 		"test": "node ./test/runTest.js"
 	},

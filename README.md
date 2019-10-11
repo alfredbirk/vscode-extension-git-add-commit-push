@@ -1,6 +1,6 @@
 ## Features
 
-Save time - perform `git add .`, `git commit` and `git push` with one simple shortcut!
+Perform `git add .`  `git commit` and `git push` with one simple shortcut!
 
 ## Extension Settings
 

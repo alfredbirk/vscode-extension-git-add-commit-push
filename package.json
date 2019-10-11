@@ -1,7 +1,7 @@
 {
 	"name": "git-add-commit-push",
 	"publisher": "alfredbirk",
-	"icon": "./logo.png",
+	"icon": "images/logo.png",
 	"displayName": "Git add commit push",
 	"description": "Three git commands in one easy shortcut!",
 	"version": "0.3.0",

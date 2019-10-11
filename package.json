@@ -16,6 +16,8 @@
 		"add",
 		"commit",
 		"push",
+		"shortcut",
+		"hotkey",
 		"auto",
 		"macro"
 	],
@@ -24,28 +26,28 @@
 		"url": "https://github.com/alfredbirk/vscode-extension-git-add-commit-push"
 	},
 	"activationEvents": [
-		"onCommand:extension.gitAddCommitPush",
-		"onCommand:extension.gitAddCommitPushPr"
+		"onCommand:gitAddCommitPush.gitAddCommitPush",
+		"onCommand:gitAddCommitPush.gitAddCommitPushPr"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.gitAddCommitPush",
+				"command": "gitAddCommitPush.gitAddCommitPush",
 				"title": "Git add > commit > push"
 			},
 			{
-				"command": "extension.gitAddCommitPushPr",
+				"command": "gitAddCommitPush.gitAddCommitPushPr",
 				"title": "Git add > commit > push > create PR"
 			}
 		],
 		"keybindings": [
 			{
-				"command": "extension.gitAddCommitPush",
+				"command": "gitAddCommitPush.gitAddCommitPush",
 				"key": "cmd+ctrl+p"
 			},
 			{
-				"command": "extension.gitAddCommitPushPr",
+				"command": "gitAddCommitPush.gitAddCommitPushPr",
 				"key": "cmd+ctrl+l"
 			}
 		]

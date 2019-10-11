@@ -2,7 +2,7 @@
 	"name": "git-add-commit-push",
 	"displayName": "Git add commit push",
 	"description": "Three git commands in one easy shortcut!",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"engines": {
 		"vscode": "^1.39.0"
 	},

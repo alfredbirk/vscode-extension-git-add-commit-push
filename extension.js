@@ -17,7 +17,6 @@ function activate(context) {
 			})
           });
         });
-
 	});
 	
 	let gitAddCommitPushPr = vscode.commands.registerCommand('extension.gitAddCommitPushPr', function () {
@@ -43,3 +42,7 @@ module.exports = {
 	activate,
 	deactivate
 }
+
+
+
+

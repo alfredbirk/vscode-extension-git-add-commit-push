@@ -6,7 +6,7 @@ If you want to change the default shortcuts used, read here: https://code.visual
 
 ## Other features
 
-* Perform `git add`,  `git commit`,  `git push` and `create pull request` with one shortcut (`cmd + ctrl + l`). NB: This command requires the `Github Pull requests` extension to be installed
+* Perform `git add`,  `git commit`,  `git push` and `create pull request` with one shortcut (`cmd + ctrl + l`). NB: this command requires the `Github Pull requests` extension to be installed
 
 ## Extension Settings
 

@@ -45,12 +45,12 @@
 			{
 				"command": "extension.gitAddCommitPush",
 				"key": "ctrl+alt+p",
-				"mac": "cmd+ctrl+p"
+				"mac": "ctrl+cmd+p"
 			},
 			{
 				"command": "extension.gitAddCommitPushPr",
 				"key": "ctrl+alt+l",
-				"mac": "cmd+ctrl+l"
+				"mac": "ctrl+cmd+l"
 			}
 		]
 	},

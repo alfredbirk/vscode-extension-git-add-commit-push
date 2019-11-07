@@ -44,11 +44,13 @@
 		"keybindings": [
 			{
 				"command": "extension.gitAddCommitPush",
-				"key": "cmd+ctrl+p"
+				"key": "ctrl+alt+p",
+				"mac": "cmd+ctrl+p"
 			},
 			{
 				"command": "extension.gitAddCommitPushPr",
-				"key": "cmd+ctrl+l"
+				"key": "ctrl+alt+l",
+				"mac": "cmd+ctrl+l"
 			}
 		]
 	},
